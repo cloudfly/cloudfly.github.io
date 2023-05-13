@@ -1,0 +1,125 @@
+# showcase
+showcase:
+  enable: true
+  title: "Hi, 我是 陈云飞"
+  subtitle: "Full-Stack Software Product Engineer"
+  description: |
+    目前就职于 <a target='_blank' href='https://bytedance.com/'>Bytedance(字节跳动)</a>. 酷爱编程和产品设计。
+    Full-Stack Software Product Engineer 是自己想的名字，因为工作中虽然主职是Coding，但平时也会花很多时间在产品设计上。
+    平时喜欢胡思乱想，在复杂事物中寻找规律和模式，不求甚解。
+  image:
+    x: "img/showcase/showcase.png"
+    _2x: "img/showcase/showcase@2x.png"
+  imageMobile:
+    x: "img/showcase/showcase-mobile.jpg"
+
+  button:
+    icon: "icon-mail-fill"
+    btnText: "Contact"
+    URL: "https://www.linkedin.com/in/%E4%BA%91%E9%A3%9E-%E9%99%88-32924ab4/"
+
+  socialLinks:
+    - icon: "linkedin"
+      URL: "https://www.linkedin.com/in/%E4%BA%91%E9%A3%9E-%E9%99%88-32924ab4/"
+
+    - icon: "github"
+      URL: "https://github.com/cloudfly"
+
+    - icon: "jike"
+      URL: "https://jike.city/cloudfly"
+
+    - icon: "wechat"
+      URL: "hitcloudfly"
+
+# about
+about:
+  enable: true
+  title: "我是谁?"
+  content: |
+    <p class="lead">
+    东北人，学的计算机科学与技术专业，本科毕业 10 年陆续在几个互联网公司做后端研发，同时兼职做一些前端开发工作。
+    </p>
+    <p class="lead">
+    涉及的领域主要是后端基础服务（不是业务后端）。比如包括运维系统，监控告警系统，消息队列，服务发现，反向代理，数据库，研发框架等等。
+    在这些后端基础设施服务建设过程中，需要一些前端支持，一般就一个人全给承包了。
+    </p>
+    <p class="lead">
+    内心还是一个喜欢设计产品的人，所以业余也自学了移动端开发、UX&UI 相关的一些技能。工作中也带过小团队，面试过几百号人。
+    </p>
+  button:
+    icon: "icon-smile-fill"
+    btnText: "关于我"
+    URL: "https://www.linkedin.com/in/%E4%BA%91%E9%A3%9E-%E9%99%88-32924ab4/"
+  image:
+    x: "img/who-am-i/user-picture.png"
+    _2x: "img/who-am-i/user-picture@2x.png"
+
+# education
+education:
+  enable: true
+  title: "Education"
+  items:
+    - university: "哈尔滨工业大学"
+      year: "2009-2013"
+      degree: "计算机科学与技术-学士"
+
+# experience
+experience:
+  enable: true
+  title: "Experience"
+  description: "超过 10 年的全栈开发经验，技术上主要偏后端。开发工具主要包括 Golang、React、Ansible、Mac 等。在可观测领域有 9 年的系统建设经验。"
+  button:
+    icon: "icon-linkedin-fill"
+    btnText: "Linkedin"
+    URL: "https://www.linkedin.com/in/%E4%BA%91%E9%A3%9E-%E9%99%88-32924ab4/"
+  items:
+    - title: "高级后端研发工程师"
+      company: "Bytedance"
+      duration: "2019年 12月 - 今天"
+    - title: "运维研发专家"
+      company: "挖财"
+      duration: "2016年 9月 - 2019年 7月"
+    - title: "PaaS平台研发工程师"
+      company: "宜信大数据创新中心"
+      duration: "2015年 6月 - 2016年 7月"
+    - title: "后端研发工程师"
+      company: "小米"
+      duration: "2012年 9月 - 2015年 4月"
+
+# Client & Work
+client_and_work:
+  title: "Works"
+  enable: true
+  works:
+    - title: "Grpc Gateway Client"
+      description: "Generate golang client code for grpc-gateway's http api."
+      button:
+        icon: "icon-arrow-right"
+        btnText: "Github"
+        URL: "https://github.com/cloudfly/grpc-gateway-client"
+      image:
+        x: "img/works/radity-finance.jpg"
+        _2x: "img/works/radity-finance@2x.jpg"
+      is_even: true
+
+    - title: "ConfGo"
+      description: "Golang 项目的配置解析管理库.支持同时从命令行、环境变量、YAML文件、JSON文件多个来源中解析配置信息。"
+      button:
+        icon: "icon-arrow-right"
+        btnText: "Github"
+        URL: "https://github.com/cloudfly/confgo"
+      image:
+        x: "img/works/robo-advisor.jpg"
+        _2x: "img/works/robo-advisor@2x.jpg"
+
+# testimonial
+testimonial:
+  enable: false 
+
+# contact
+contact:
+  enable: false
+
+# newsletter
+newsletter:
+  enable: false
