@@ -1,0 +1,635 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta name="generator" content="Hugo 0.111.3">
+
+    <meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<meta http-equiv="X-UA-Compatible" content="ie=edge"/>
+
+<script>
+    (function (w, d, s, l, i) {
+        w[l] = w[l] || [];
+        w[l].push({
+            'gtm.start': new Date().getTime(),
+            event: 'gtm.js'
+        });
+        var f = d.getElementsByTagName(s)[0],
+            j = d.createElement(s),
+            dl = l != 'dataLayer' ? '&l=' + l : '';
+        j.async = true;
+        j.src =
+            'https://www.googletagmanager.com/gtm.js?id=UA-108477130-1' + i + dl;
+        f.parentNode.insertBefore(j, f);
+    })(window, document, 'script', 'dataLayer', 'UA-108477130-1');
+</script>
+
+
+<title></title>
+<style>
+     
+    .rad-fade-in {
+        will-change: opacity, transform;
+        animation-name: rad-fade-in-fallback;
+        animation-duration: 5s;
+        animation-fill-mode: both;
+    }
+
+    @keyframes rad-fade-in-fallback {
+        0% {
+            opacity: 0;
+        }
+
+        75% {
+            opacity: 0;
+        }
+
+        100% {
+            opacity: 1;
+        }
+    }
+
+    .fonts-loaded .rad-fade-in.rad-waiting {
+        animation-name: none;
+        opacity: 0;
+    }
+
+    .fonts-loaded .rad-fade-in.rad-animate {
+        animation-name: rad-fade-in;
+        animation-duration: 1.1s;
+        animation-fill-mode: both;
+    }
+
+    @keyframes rad-fade-in {
+        0% {
+            opacity: 0;
+        }
+
+        100% {
+            opacity: 1;
+        }
+    }
+
+     
+    .rad-fade-in-long {
+        will-change: opacity, transform;
+        animation-name: rad-fade-in-long-fallback;
+        animation-duration: 8s;
+        animation-fill-mode: both;
+    }
+
+    @keyframes rad-fade-in-long-fallback {
+        0% {
+            opacity: 0;
+        }
+
+        75% {
+            opacity: 0;
+        }
+
+        100% {
+            opacity: 1;
+        }
+    }
+
+    .fonts-loaded .rad-fade-in-long.rad-waiting {
+        animation-name: none;
+        opacity: 0;
+    }
+
+    .fonts-loaded .rad-fade-in-long.rad-animate {
+        animation-name: rad-fade-in-long;
+        animation-duration: 2s;
+        animation-fill-mode: both;
+    }
+
+    @keyframes rad-fade-in-long {
+        0% {
+            opacity: 0;
+        }
+
+        20% {
+            opacity: 0;
+        }
+
+        100% {
+            opacity: 1;
+        }
+    }
+
+     
+    .rad-fade-down {
+        will-change: opacity, transform;
+        animation-name: rad-fade-down-fallback;
+        animation-duration: 5s;
+        animation-fill-mode: both;
+        transform: translateY(-30px);
+    }
+
+    @keyframes rad-fade-down-fallback {
+        0% {
+            opacity: 0;
+            transform: translateY(-30px);
+        }
+
+        75% {
+            opacity: 0;
+            transform: translateY(-30px);
+        }
+
+        100% {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
+
+    .fonts-loaded .rad-fade-down.rad-waiting {
+        animation-name: none;
+        opacity: 0;
+        transform: translateY(-30px);
+    }
+
+    .fonts-loaded .rad-fade-down.rad-animate {
+        animation-name: rad-fade-down;
+        animation-duration: 1.1s;
+    }
+
+    @keyframes rad-fade-down {
+        0% {
+            opacity: 0;
+            transform: translateY(-30px);
+        }
+
+        100% {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
+
+     
+    .rad-scale-down {
+        will-change: opacity, transform;
+        animation-name: rad-scale-down-fallback;
+        animation-duration: 5s;
+        animation-fill-mode: both;
+        transform-origin: 50% 0;
+    }
+
+    @keyframes rad-scale-down-fallback {
+        0% {
+            opacity: 0;
+            transform: scaleY(0.95);
+        }
+
+        75% {
+            opacity: 0;
+            transform: scaleY(0.95);
+        }
+
+        100% {
+            opacity: 1;
+            transform: scaleY(1);
+        }
+    }
+
+    .fonts-loaded .rad-scale-down.rad-waiting {
+        animation-name: none;
+        opacity: 0;
+        transform: scaleY(0.95);
+    }
+
+    .fonts-loaded .rad-scale-down.rad-animate {
+        animation-name: rad-scale-down;
+        animation-duration: 1.1s;
+        animation-fill-mode: both;
+    }
+
+    @keyframes rad-scale-down {
+        0% {
+            opacity: 0;
+            transform: scaleY(0.95);
+        }
+
+        100% {
+            opacity: 1;
+            transform: scaleY(1);
+        }
+    }
+</style>
+
+
+<link rel="stylesheet" href="https://chenyunfei.cn/css/main.css"/>
+
+<link rel="stylesheet" href="https://chenyunfei.cn/css/rad-icons.css"/>
+
+<link rel="stylesheet" href="https://chenyunfei.cn/css/custom.css"/>
+
+
+    
+
+
+</head>
+
+<body>
+
+	<header class="header fixed-top rad-animation-group" id="header">
+  <div class="container rad-fade-in">
+    <nav class="navbar navbar-expand-lg navbar-light p-0">
+      <a class="navbar-brand" href="https://chenyunfei.cn/">
+        <span>Cloudfly</span>
+        <span></span>
+        
+      </a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarSupportedContent, #header"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-lg-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="https://chenyunfei.cn/">HOME</a>
+          </li>
+          
+          <li class="nav-item">
+            <a data-scroll class="nav-link" href="#about"
+              >ABOUT</a
+            >
+          </li>
+          
+          <li class="nav-item">
+            <a data-scroll class="nav-link" href="#portfolio"
+              >WORKS</a
+            >
+          </li>
+          
+        </ul>
+      </div>
+    </nav>
+  </div>
+</header>
+
+
+	
+	
+<section class="rad-showcase rad-showcase--index rad-animation-group rad-fade-down">
+  <div class="rad-showcase__bg">
+    <img
+      class="lozad img-responsive"
+      src="data:image/gif;base64,R0lGODlhBwACAIAAAP///wAAACH5BAEAAAEALAAAAAAHAAIAAAIDjI9YADs="
+      data-src="https://chenyunfei.cn/img/showcase/showcase.png"
+      data-srcset="https://chenyunfei.cn/img/showcase/showcase.png 1x, https://chenyunfei.cn/img/showcase/showcase@2x.png 2x"
+      alt=""
+    />
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-12 col-sm-12 col-md-8 col-lg-7 col-xl-6">
+        <h1 class="display-1">
+          Hi, 我是 陈云飞
+          <br />
+          <span
+            >Full-Stack Software Product Engineer</span
+          >
+        </h1>
+        <p class="lead">
+          目前就职于 <a target='_blank' href='https://bytedance.com/'>Bytedance(字节跳动)</a>. 酷爱编程和产品设计。
+Full-Stack Software Product Engineer 是自己想的名字，因为工作中虽然主职是Coding，但平时也会花很多时间在产品设计上。
+平时喜欢胡思乱想，在复杂事物中寻找规律和模式，不求甚解。
+
+        </p>
+        <a
+          href="https://www.linkedin.com/in/%E4%BA%91%E9%A3%9E-%E9%99%88-32924ab4/"
+          class="btn btn-primary"
+        >
+          <i class="icon-mail-fill"></i>
+          Contact
+        </a>
+      </div>
+    </div>
+    <div class="row platform-links">
+      <div class="col-12">
+        
+        <a href="https://www.linkedin.com/in/%E4%BA%91%E9%A3%9E-%E9%99%88-32924ab4/" target="_blank"
+          ><i class="icon-linkedin-line"></i
+        ></a>
+        
+        <a href="https://github.com/cloudfly" target="_blank"
+          ><i class="icon-github-line"></i
+        ></a>
+        
+        <a href="https://jike.city/cloudfly" target="_blank"
+          ><i class="icon-jike-line"></i
+        ></a>
+        
+        <a href="https://chenyunfei.cn/hitcloudfly" target="_blank"
+          ><i class="icon-wechat-line"></i
+        ></a>
+        
+      </div>
+    </div>
+  </div>
+  <div class="rad-showcase__bg rad-showcase__bg--mobile">
+    <img
+      class="lozad img-responsive"
+      src="data:image/gif;base64,R0lGODlhBwACAIAAAP///wAAACH5BAEAAAEALAAAAAAHAAIAAAIDjI9YADs="
+      data-src="https://chenyunfei.cn/img/showcase/showcase-mobile.jpg"
+      alt=""
+    />
+  </div>
+</section>
+
+
+	
+	
+<section class="section rad-animation-group pb-0" id="about">
+  <div class="container rad-fade-down">
+    <div class="row d-flex flex-column-reverse flex-md-row">
+      <div class="about__profile-picture col-12 col-md-6">
+        <img
+          class="lozad img-responsive image-left-overflow"
+          src="data:image/gif;base64,R0lGODlhBwACAIAAAP///wAAACH5BAEAAAEALAAAAAAHAAIAAAIDjI9YADs="
+          data-src="https://chenyunfei.cn/img/who-am-i/user-picture.png"
+          data-srcset="https://chenyunfei.cn/img/who-am-i/user-picture.png 1x, https://chenyunfei.cn/img/who-am-i/user-picture@2x.png 2x"
+          alt="Profile Picture"
+        />
+      </div>
+      <div class="col-12 col-md-6 my-auto my-auto">
+        <h2>我是谁?</h2>
+        <p class="lead">
+          <p class="lead">
+东北人，学的计算机科学与技术专业，本科毕业 10 年陆续在几个互联网公司做后端研发，同时兼职做一些前端开发工作。
+</p>
+<p class="lead">
+涉及的领域主要是后端基础服务（不是业务后端）。比如包括运维系统，监控告警系统，消息队列，服务发现，反向代理，数据库，研发框架等等。
+在这些后端基础设施服务建设过程中，需要一些前端支持，一般就一个人全给承包了。
+</p>
+<p class="lead">
+内心还是一个喜欢设计产品的人，所以业余也自学了移动端开发、UX&UI 相关的一些技能。工作中也带过小团队，面试过几百号人。
+</p>
+
+        </p>
+        <a
+          href="https://www.linkedin.com/in/%E4%BA%91%E9%A3%9E-%E9%99%88-32924ab4/"
+          target="_blank"
+          class="btn btn-primary"
+        >
+          <i class="icon-smile-fill"></i>
+          关于我
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+	
+	
+<section class="section section--border-bottom rad-animation-group">
+    <div class="container">
+        <div class="row rad-fade-down">
+            <div class="col-12">
+                <h2>Education</h2>
+                <div class="row pt-2 pt-md-4">
+                    
+                    <div class="col-12 col-sm-6 mb-4 mb-sm-0">
+                        <div class="education">
+                            <div class="education__date">2009-2013</div>
+                            <div class="education__title">哈尔滨工业大学</div>
+                            <div class="education__degree">
+                                计算机科学与技术-学士
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+	
+	
+<section id="experience" class="section section--border-bottom rad-animation-group">
+    <div class="container">
+        <div class="row flex-column-reverse flex-md-row rad-fade-down">
+            <div class="col-12 col-sm-6 mt-5 mt-sm-0">
+                
+                <div class="experience">
+                    <div class="experience__date">2019年 12月 - 今天</div>
+                    <div class="experience__title">高级后端研发工程师</div>
+                    <div class="experience__company">Bytedance</div>
+                </div>
+                
+                <div class="experience">
+                    <div class="experience__date">2016年 9月 - 2019年 7月</div>
+                    <div class="experience__title">运维研发专家</div>
+                    <div class="experience__company">挖财</div>
+                </div>
+                
+                <div class="experience">
+                    <div class="experience__date">2015年 6月 - 2016年 7月</div>
+                    <div class="experience__title">PaaS平台研发工程师</div>
+                    <div class="experience__company">宜信大数据创新中心</div>
+                </div>
+                
+                <div class="experience">
+                    <div class="experience__date">2012年 9月 - 2015年 4月</div>
+                    <div class="experience__title">后端研发工程师</div>
+                    <div class="experience__company">小米</div>
+                </div>
+                
+            </div>
+            <div class="col-12 col-sm-6">
+                <h2>Experience</h2>
+                <p class="lead">
+                    超过 10 年的全栈开发经验，技术上主要偏后端。开发工具主要包括 Golang、React、Ansible、Mac 等。在可观测领域有 9 年的系统建设经验。
+                </p>
+                <a href="https://www.linkedin.com/in/%E4%BA%91%E9%A3%9E-%E9%99%88-32924ab4/" class="btn btn-primary"
+                   target="_blank">
+                    <i class="icon-linkedin-fill"></i>
+                    Linkedin
+                    <i class="icon-arrow-right"></i></a>
+                <a href="https://chenyunfei.cn/" class="btn btn-frameless"
+                   target="_blank">
+                    <i class=""></i>
+                    
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+	
+	
+<section id="portfolio" class="section section--border-bottom">
+  <div class="container">
+    <h2 class=" rad-animation-group rad-fade-down">
+      Works
+    </h2>
+    <div class="row row--padded rad-animation-group rad-fade-down">
+      <div class="col-12">
+        <div class="clients">
+          
+        </div>
+      </div>
+    </div>
+    
+    <div
+      class="row row--padded rad-animation-group rad-fade-down flex-column-reverse flex-md-row"
+    >
+      
+      <div class="col-12 col-md-5 mt-4 mt-md-0 my-md-auto">
+        <h3>Grpc Gateway Client</h3>
+        <p class="lead">
+          Generate golang client code for grpc-gateway&#39;s http api.
+        </p>
+        <a href="https://github.com/cloudfly/grpc-gateway-client" class="btn btn-primary"
+          >Github<i class="icon-arrow-right"></i
+        ></a>
+      </div>
+      <div class="col-12 col-md-7 pl-md-0 text-right">
+        <img
+          class='lozad img-responsive img-clip-left-backward'
+          src="data:image/gif;base64,R0lGODlhBwACAIAAAP///wAAACH5BAEAAAEALAAAAAAHAAIAAAIDjI9YADs="
+          data-src="https://chenyunfei.cn/img/works/radity-finance.jpg"
+          data-srcset="https://chenyunfei.cn/img/works/radity-finance.jpg 1x, https://chenyunfei.cn/img/works/radity-finance@2x.jpg 2x"
+          alt="Grpc Gateway Client"
+        />
+      </div>
+      
+    </div>
+    
+    <div
+      class="row row--padded rad-animation-group rad-fade-down "
+    >
+      
+      <div class="col-12 col-md-7 pl-md-0 text-right">
+        <img
+          class='lozad img-responsive img-clip-right-backward'
+          src="data:image/gif;base64,R0lGODlhBwACAIAAAP///wAAACH5BAEAAAEALAAAAAAHAAIAAAIDjI9YADs="
+          data-src="https://chenyunfei.cn/img/works/robo-advisor.jpg"
+          data-srcset="https://chenyunfei.cn/img/works/robo-advisor.jpg 1x, https://chenyunfei.cn/img/works/robo-advisor@2x.jpg 2x"
+          alt="ConfGo"
+        />
+      </div>
+      <div class="col-12 col-md-5 mt-4 mt-md-0 my-md-auto">
+        <h3>ConfGo</h3>
+        <p class="lead">
+          Golang 项目的配置解析管理库.支持同时从命令行、环境变量、YAML文件、JSON文件多个来源中解析配置信息。
+        </p>
+        <a href="https://github.com/cloudfly/confgo" class="btn btn-primary"
+          >Github<i class="icon-arrow-right"></i
+        ></a>
+      </div>
+      
+    </div>
+    
+  </div>
+</section>
+
+
+	
+
+	<footer class="footer">
+  <div class="container">
+    <div class="footer__left">
+      <div class="footer__copy">
+        © Cloudfly. All rights reserved.
+      </div>
+    </div>
+    <div class="footer__links">
+      <ul class="navbar-nav ">
+        <li class="nav-item">
+          <a class="nav-link" href="/">HOME</a>
+        </li>
+        
+        <li class="nav-item">
+          <a class="nav-link" href="https://chenyunfei.cn/">ABOUT</a>
+        </li>
+        
+        <li class="nav-item">
+          <a class="nav-link" href="https://chenyunfei.cn/">WORKS</a>
+        </li>
+        
+      </ul>
+    </div>
+    <div class="footer__right">
+      <a href="https://radity.com/"
+        ><img
+          src="https://chenyunfei.cn/"
+          srcset="https://chenyunfei.cn/ 1x, https://chenyunfei.cn/ 2x"
+          alt=""
+      /></a>
+    </div>
+  </div>
+</footer>
+
+    <script src='https://chenyunfei.cn/js/rad-animations.js'></script>
+<script src='https://chenyunfei.cn/js/library/lozad.min.js'></script>
+<script>
+  window.addEventListener("load", function() {
+    var observer = window.lozad(".lozad", {
+      rootMargin: window.innerHeight / 2 + "px 0px",
+      threshold: 0.01
+    }); 
+    observer.observe();
+  });
+</script>
+<script src='https://chenyunfei.cn/js/library/jquery-3.3.1.slim.min.js'></script>
+<script src='https://chenyunfei.cn/js/library/bootstrap.min.js'></script>
+<script src='https://chenyunfei.cn/js/sticky-header.js'></script>
+<script src='https://chenyunfei.cn/js/library/smooth-scroll.polyfills.min.js'></script>
+<script src='https://chenyunfei.cn/js/library/fontfaceobserver.js'></script>
+<script>
+  (function(w) {
+    
+    if (w.document.documentElement.className.indexOf("fonts-loaded") > -1) {
+      return;
+    }
+    var fontA = new w.FontFaceObserver("Inter", {
+      weight: 300
+    });
+    var fontB = new w.FontFaceObserver("Inter", {
+      weight: 400
+    });
+    var fontC = new w.FontFaceObserver("Inter", {
+      weight: 500
+    });
+    var fontD = new w.FontFaceObserver("Inter", {
+      weight: 600
+    });
+    var fontE = new w.FontFaceObserver("Inter", {
+      weight: 700
+    });
+    var fontF = new w.FontFaceObserver("Inter", {
+      weight: 900
+    });
+    w.Promise.all([fontA.load(), fontC.load(), fontF.load()]).then(function() {
+      w.document.documentElement.className += " fonts-loaded";
+    });
+  })(this);
+</script>
+<script>
+  const scroll = new SmoothScroll('a[href*="#"]');
+    $('a.nav-link').on('click', () => {
+      const navbar = $('.navbar-collapse');
+      if (navbar && navbar.hasClass('show')) {
+        $('.navbar-toggler').click();
+      }
+    })
+</script>
+</body>
+
+</html>
