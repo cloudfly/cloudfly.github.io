@@ -1,1 +1,14 @@
 /* You can customize theme styles here */
+
+.page-title {
+	font-size: 32px;
+	margin: 0 0 20px;
+}
+
+.rad-showcase .container h1 {
+	font-size: 40px;
+}
+
+.rad-showcase .container h1 span {
+	font-size: 36px;
+}

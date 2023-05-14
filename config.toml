@@ -1,4 +1,4 @@
-baseURL = "https://chenyunfei.cn/"
+baseURL = "https://service-jbnjcoir-1252483240.sh.apigw.tencentcs.com/release/cloudfly"
 languageCode = "en-us"
 theme = "cloudfly"
 
