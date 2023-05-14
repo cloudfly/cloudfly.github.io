@@ -19,7 +19,7 @@
   }
 }
 */
- 
+
  [class^="icon-"]:before, [class*=" icon-"]:before {
   font-family: "rad-icons";
   font-style: normal;
@@ -71,3 +71,18 @@
 .icon-github-line:before { content: '\e811'; } /* '' */
 .icon-linkedin-line:before { content: '\e812'; } /* '' */
 .icon-yelp-line:before { content: '\e82c'; } /* '' */
+.icon-jike-line:before { content: '\e82d'; } /* '' */
+
+
+ [class^="icon-"], [class*=" icon-"] {
+    background-size: 1em 1em;
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+ }
+
+.icon-jike { background-image: url('./icon-jike-fill.svg'); }
+.icon-github { background-image: url('./icon-github-fill.svg'); }
+.icon-wechat { background-image: url('./icon-wechat-fill.svg'); }
+.icon-email { background-image: url('./icon-email-fill.svg'); }
+.icon-experience { background-image: url('./icon-experience-fill.svg'); background-color: white; }

@@ -1,6 +1,7 @@
 baseURL = "https://i.chenyunfei.cn"
 languageCode = "en-us"
 theme = "cloudfly"
+title = "陈云飞"
 
 # Plugins
 [params.plugins]
@@ -8,7 +9,7 @@ theme = "cloudfly"
   [[params.plugins.css]]
   URL = "css/main.css"
   [[params.plugins.css]]
-  URL = "css/rad-icons.css"
+  URL = "css/icons.css"
   [[params.plugins.css]]
   URL = "css/custom.css"
 

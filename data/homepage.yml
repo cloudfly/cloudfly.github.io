@@ -1,35 +1,35 @@
 # showcase
+head:
+  title: 'Hi，云飞'
 showcase:
   enable: true
   title: "Hi, 我是 陈云飞"
   subtitle: "Full-Stack Software Product Engineer"
   description: |
     目前就职于 <a target='_blank' href='https://bytedance.com/'>Bytedance(字节跳动)</a>. 酷爱编程和产品设计。
-    Full-Stack Software Product Engineer 是自己想的名字，因为工作中虽然主职是Coding，但平时也会花很多时间在产品设计上。
+    Full-Stack Software Product Engineer 是自己想的名字，因为工作中虽然主职是 Coding，但平时也会花很多时间在产品设计上。
     平时喜欢胡思乱想，在复杂事物中寻找规律和模式，不求甚解。
   image:
     x: "img/showcase/showcase.png"
     _2x: "img/showcase/showcase@2x.png"
   imageMobile:
     x: "img/showcase/showcase-mobile.jpg"
-
-  button:
-    icon: "icon-mail-fill"
-    btnText: "Contact"
-    URL: "https://www.linkedin.com/in/%E4%BA%91%E9%A3%9E-%E9%99%88-32924ab4/"
-
   socialLinks:
-    - icon: "linkedin"
-      URL: "https://www.linkedin.com/in/%E4%BA%91%E9%A3%9E-%E9%99%88-32924ab4/"
+    - icon: "email"
+      title: "Email"
+      URL: "mailto:chenyunfei.cs@gmail.com"
 
     - icon: "github"
+      title: "Github"
       URL: "https://github.com/cloudfly"
 
-    - icon: "jike"
-      URL: "https://jike.city/cloudfly"
-
     - icon: "wechat"
-      URL: "hitcloudfly"
+      title: "微信"
+      URL: "img/showcase/wechat.jpeg"
+
+    - icon: "jike"
+      title: "即刻"
+      URL: "https://jike.city/cloudfly"
 
 # about
 about:
@@ -48,8 +48,8 @@ about:
     </p>
   button:
     icon: "icon-smile-fill"
-    btnText: "关于我"
-    URL: "https://www.linkedin.com/in/%E4%BA%91%E9%A3%9E-%E9%99%88-32924ab4/"
+    btnText: "了解更多"
+    URL: "about/"
   image:
     x: "img/who-am-i/user-picture.png"
     _2x: "img/who-am-i/user-picture@2x.png"
@@ -69,9 +69,9 @@ experience:
   title: "Experience"
   description: "超过 10 年的全栈开发经验，技术上主要偏后端。开发工具主要包括 Golang、React、Ansible、Mac 等。在可观测领域有 9 年的系统建设经验。"
   button:
-    icon: "icon-linkedin-fill"
-    btnText: "Linkedin"
-    URL: "https://www.linkedin.com/in/%E4%BA%91%E9%A3%9E-%E9%99%88-32924ab4/"
+    icon: "experience"
+    btnText: "了解更多"
+    URL: "/experience"
   items:
     - title: "高级后端研发工程师"
       company: "Bytedance"

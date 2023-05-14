@@ -12,3 +12,46 @@
 .rad-showcase .container h1 span {
 	font-size: 36px;
 }
+
+.rad-showcase__bg {
+	height: 680px;
+}
+
+.rad-showcase .platform-links {
+	margin-top: 24px;
+}
+
+.btn {
+    display: -webkit-inline-box;
+    display: inline-flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    border-radius: 2;
+	color: #666;
+    white-space: nowrap;
+    line-height: 1;
+    font-weight: 700;
+    font-size: 14px;
+    padding: 14px 15px;
+}
+
+.btn-primary {
+	position: relative;
+	color: #666;
+	background-color: transparent;
+	will-change: border-color,color;
+	-webkit-transition: border-color,color;
+	transition: border-color,color;
+	-webkit-transition-duration: .35s;
+	transition-duration: .35s;
+	-webkit-transition-timing-function: ease;
+	transition-timing-function: ease;
+}
+
+.btn-primary:hover {
+    color: #000;
+	border-color: #000;
+    background-color: transparent;
+}
