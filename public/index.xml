@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title></title>
-    <link>https://service-jbnjcoir-1252483240.sh.apigw.tencentcs.com/release/cloudfly/</link>
+    <link>https://i.chenyunfei.cn/</link>
     <description>Recent content on </description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="https://service-jbnjcoir-1252483240.sh.apigw.tencentcs.com/release/cloudfly/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language><atom:link href="https://i.chenyunfei.cn/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>关于我</title>
-      <link>https://service-jbnjcoir-1252483240.sh.apigw.tencentcs.com/release/cloudfly/about/</link>
+      <link>https://i.chenyunfei.cn/about/</link>
       <pubDate>Sat, 13 May 2023 14:42:34 +0000</pubDate>
       
-      <guid>https://service-jbnjcoir-1252483240.sh.apigw.tencentcs.com/release/cloudfly/about/</guid>
+      <guid>https://i.chenyunfei.cn/about/</guid>
       <description>东北人，学的计算机科学与技术专业，本科毕业 10 年陆续在几个互联网公司做后端研发，同时兼职做一些前端开发工作。
 涉及的领域主要是后端基础服务（不是业务后端）。比如包括运维系统，监控告警系统，消息队列，服务发现，反向代理，数据库，研发框架等等。 在这些后端基础设施服务建设过程中，需要一些前端支持，一般就一个人全给承包了。
 内心还是一个喜欢设计产品的人，所以业余也自学了移动端开发、UX&amp;amp;UI 相关的一些技能。工作中也带过小团队，面试过几百号人。</description>
